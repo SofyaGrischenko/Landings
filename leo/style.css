@@ -1,0 +1,8 @@
+
+.firstblock{
+    background-image: url("background.png");
+    height: 488px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
