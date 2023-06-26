@@ -12,10 +12,12 @@
 }
 
 .header_list{
+    margin-top: 5%;
     list-style: none;
     display: flex;   
-    gap: 20%;
-   
+    gap: 20%;   
+    font-size: 20px;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
 .header{
@@ -24,9 +26,45 @@
 }
 
 .header_list a{
-    color: aliceblue;
+    color: rgb(203, 207, 209);
     text-decoration: none;
 }
 .header_list a:hover {
     text-decoration: underline;
+}
+
+.coffe_icon {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.introducing {
+    display: flex;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.introducing h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: aliceblue;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.introducing p{
+    font-size: 30px;
+    color: rgb(203, 207, 209);
+    margin-top: 0px;
+}
+
+.introducing_title{
+    margin-left: 5%;
+}
+
+.TryDemo {
+    background-color: rgb(52, 134, 120);
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
