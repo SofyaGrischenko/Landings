@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 
 .firstblock{
     background-image: url("background.png");
@@ -9,6 +12,8 @@
 .logo{
     margin-top: 5%;
     margin-left: 15%;
+    height: 69px;
+    width: 221px;
 }
 
 .header_list{
@@ -37,6 +42,8 @@
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: auto;
+    height: 326px;
+    width: 330px;
 }
 
 .introducing {
@@ -68,31 +75,62 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    border: none;
 }
 
-.arrow_l{
+.TryDemo:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+
+.arrow_left{
     background-color: transparent;
     border: none;
     margin: 10% 5%;
     padding: 0;
     block-size: 0%;
     opacity: 30%;
+    width: 48px;
+    height: 48px;
 }
 
-.arrow_r{
+.arrow_right{
     background-color: transparent;
     border: none;
     margin: 10% 20%;
     padding: 0;
     block-size: 0%;
     opacity: 30%;
+    width: 48px;
+    height: 48px;
 }
 
 
-.arrow_l:hover{
+.arrow_left:hover{
     opacity: 80%;
 }
 
-.arrow_r:hover{
+.arrow_right:hover{
     opacity: 80%;
+}
+
+.secondblock{
+    height: 1750px;
+    width: 1280px;
+    background-color: rgb(233, 233, 233);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hexagon img{
+    height: 150px;
+    width: 135px;
+    margin-top: 7%;
+}
+
+.hexagon {
+    display:flex;
+    justify-content: center;
+    gap: 10%;
+    
 }
