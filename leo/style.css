@@ -12,8 +12,6 @@ body{
 .logo{
     margin-top: 5%;
     margin-left: 15%;
-    height: 69px;
-    width: 221px;
 }
 
 .header_list{
@@ -42,8 +40,7 @@ body{
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: auto;
-    height: 326px;
-    width: 330px;
+
 }
 
 .introducing {
@@ -90,8 +87,7 @@ body{
     padding: 0;
     block-size: 0%;
     opacity: 30%;
-    width: 48px;
-    height: 48px;
+ 
 }
 
 .arrow_right{
@@ -101,8 +97,7 @@ body{
     padding: 0;
     block-size: 0%;
     opacity: 30%;
-    width: 48px;
-    height: 48px;
+
 }
 
 
@@ -123,14 +118,17 @@ body{
 }
 
 .hexagon img{
-    height: 150px;
-    width: 135px;
     margin-top: 7%;
 }
 
 .hexagon {
     display:flex;
     justify-content: center;
-    gap: 10%;
-    
+    gap: 10%;   
+}
+
+.captions{
+   /* display: flex;
+    gap:10%;
+    margin-left: 15%; */
 }
