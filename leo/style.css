@@ -1,5 +1,6 @@
 body{
     margin:0;
+    
 }
 
 .firstblock{
@@ -20,7 +21,7 @@ body{
     display: flex;   
     gap: 20%;   
     font-size: 20px;
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+   
 }
 
 .header{
@@ -45,7 +46,6 @@ body{
 
 .introducing {
     display: flex;
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
 .introducing h1{
@@ -71,7 +71,6 @@ body{
     color: aliceblue;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
     border: none;
 }
 
@@ -112,23 +111,29 @@ body{
 .secondblock{
     height: 1750px;
     width: 1280px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
 }
 
-.hexagon img{
-    margin-top: 7%;
+.hexagon figure{
+    margin-top: 7%;     
 }
 
 .hexagon {
     display:flex;
     justify-content: center;
-    gap: 10%;   
 }
 
-.captions{
-   /* display: flex;
-    gap:10%;
-    margin-left: 15%; */
+.font{
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
 }
+
+.ipad{
+    width: 1023px;
+    height: 781px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 3px 2px rgb(196, 196, 196);
+}
+
