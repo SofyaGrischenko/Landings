@@ -1,11 +1,9 @@
-body{
-    margin:0;
-    
+body {
+    margin:0;    
 }
 
 .firstblock{
     background-image: url("background.png");
-    height: 488px;
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -13,6 +11,8 @@ body{
 .logo{
     margin-top: 5%;
     margin-left: 15%;
+    height: 69px;
+    width: 221px;
 }
 
 .header_list{
@@ -41,7 +41,8 @@ body{
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: auto;
-
+    height: 326px;
+    width: 330px;
 }
 
 .introducing {
@@ -109,7 +110,6 @@ body{
 }
 
 .secondblock{
-    height: 1750px;
     width: 1280px;
     background-color: rgb(255, 255, 255);
     margin-left: auto;
@@ -123,6 +123,10 @@ body{
 .hexagon {
     display:flex;
     justify-content: center;
+}
+
+.hexagon img{
+    height: 150px; width: 135px;
 }
 
 .font{
@@ -140,7 +144,8 @@ body{
 .ipad img{
     margin-top: 5%; 
     margin-left: 15%;
-    
+    height:310px;
+     width: 660px
 }
 .title{
     font-size: 30px;
@@ -162,10 +167,11 @@ body{
 
 .thridblock{
     width: 1023px;
-    height: 418px;
+    
     margin: auto;
     display: flex;
     margin-top: 3%;
+
 }
 
 .whyUs p{
@@ -173,6 +179,7 @@ body{
     font-size: 25px;
     margin: 0;
     margin-top: 5%;
+    margin-left: 4%;
 }
 
  .whyUs ul{
@@ -187,4 +194,68 @@ body{
 
   .whyUs{
     margin-left: 5%;
+    padding-bottom: 3%;
   }
+
+  .form{
+    width: 1280px;
+    height:165px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .login{
+    background-color: rgb(229, 117, 35);
+  }
+
+  .subscribe{
+    background-color: rgb(1, 211, 243);
+  }
+
+  .shape{
+    width:470px;
+    height:110px;
+    border-radius: 10px;
+  }
+
+  .form p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 3% 0 3% 5% ;
+
+  }
+
+.inputField{
+    padding: 0%;
+    border: none;
+    width:155px;
+    height: 25px;
+}
+
+.name{
+    margin-left: 30px;
+   margin-right: 15px;
+}
+
+.email{
+    margin-left: 30px;
+    height: 25px;
+    padding: 0%;
+    border: none;
+    width: 300px;
+}
+
+footer{
+    background-color: #262a27;
+    height: 200px;
+}
+
+footer img{
+    margin: 5% 0 0 70%;
+}
+
+footer p{
+    color: aliceblue;
+    margin-left: 70%;
+    opacity: 50%;
+}
