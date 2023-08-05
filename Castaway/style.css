@@ -33,7 +33,177 @@ body p{
     
 }
 
+.list_item a:hover {
+    color: #118DA8;
+}
+
+
 .header{
     display: flex;
     margin-top: 20px;
+}
+
+.man_img{
+    width: 650px;
+    height:873px;
+    border-radius: 12px;
+    margin-left: 75px;  
+    margin-top: 20px; 
+}
+
+.corner_lines{
+    position: absolute;
+    margin-left:50px;
+
+}
+
+.first_block{
+    margin-top: 5%;
+    display:flex;
+}
+
+.first_title{
+    margin-top: 20%;
+    margin-left: 5%;
+    letter-spacing: 3.2px;
+}
+
+.first_title p{
+    color: #FFFFFF;
+    font-size: 70px;
+
+}
+
+.level{
+    color: #FFFFFF;
+    font-size: 80px;
+    vertical-align: 30px;
+    font-weight: 700;
+    margin-left: 7px;
+    letter-spacing: 3.2px;
+}
+
+.listen_on{
+    color: #FFFFFF;     
+    font-size: 15px; 
+    opacity: 70%; 
+}
+
+.apps{
+    margin-top: 25%;
+}
+
+.apps_icon{
+    margin-top: 25px;
+    display: flex;
+    gap: 5%
+}
+
+.apps img{
+    border-radius: 50%;
+}
+
+.second_block{
+    margin-top: 10%;
+}
+
+.second_title p{
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-left: 75px;
+    letter-spacing: 2.88px;
+}
+
+.second_title{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.view_episodes{
+    background:#118DA8;
+    width: 178px;
+    height: 51px;
+    margin-left: 45%;
+    border-radius: 6px;
+    border: none;
+}
+
+.view_episodes span{
+    color: #FFFFFF;
+    margin-left: 75px;
+    font-size:17px;
+    margin-left: 0;
+}
+
+.conteiner{
+    width: 1300PX;
+    height: 545px;
+    border-radius: 32px;
+    background: #000000;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.card_img{
+    margin: 3% 0 3% 3%;
+}
+
+.third_episode_title {
+    color:#FFFFFF;
+    font-size: 64px;
+    Width: 701px;
+    Height: 141px;
+    letter-spacing: 2.56px;
+    margin-top: 35px;
+}
+
+.episode_num{
+    color: #118DA8;
+    font-size: 17px;
+    display: block;
+    margin-top: 50px;
+}
+
+.category{
+    color: #FFFFFF;
+    font-size: 18px;
+    background: #191919;
+    border-radius: 6px;
+    border-left: 10px solid #191919;
+    border-right: 10px solid #191919;
+}
+
+.episode_text{
+    color: #FFFFFF;
+    width: 757px;   
+    font-size: 22px;
+    opacity: 70%;
+    margin-top: 35px;
+    line-height: 33px;
+}
+
+.button_third_episode{
+    width: 208px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.card_text{
+    margin: 3% 0 0 3%;
+}
+
+.first_episode_title {
+    color:#FFFFFF;
+    font-size: 57px;
+    Width: 611px;
+    Height: 141px;
+    letter-spacing: 2.56px;
+    margin-top: 35px;
+}
+
+.button_first_episode{
+    width: 208px;
+    margin-left: 0;
+    margin-top: 45px;
 }
