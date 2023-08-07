@@ -207,3 +207,100 @@ body p{
     margin-left: 0;
     margin-top: 45px;
 }
+
+.third_block{
+    margin-top: 20%;
+    display: flex;
+    margin-left:75px;
+}
+
+.man_img_2{
+    Width:650px;
+    Height:743px;
+    border-radius: 12px;
+    margin-left: 95px;
+}
+
+.host_info{
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 33px;
+    opacity: 70%;
+    width: 556px;
+    margin-top: 20px;
+}
+
+.third_title{
+    color: #FFFFFF;
+    font-size: 65px;
+    margin-top:10px;
+}
+
+.intro{
+    font-size: 18px;
+    color: #118DA8;
+    display: block;
+    margin-top: 30px;
+}
+
+.arrow{
+    width: 112px;
+    height: 112px;
+    margin-top: 120px;
+}
+
+.form{
+    Width:1300px;
+    Height:387px;
+    background: #000000;
+    border-radius: 32px;
+    margin-left:75px;
+}
+
+.second_corner_lines{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+.fourth_block{
+    margin-top: 20%;
+}
+
+.review_block{
+    Width: 423px;
+    Height: 321px;
+    background-color: #000000;
+    border-radius: 32px;
+}
+
+.reviews{
+    margin-top: 20%;
+    margin-left: 75px;
+}
+
+.comment{
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 43.2px;
+    width: 313px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.checked{
+    color: #FCFF51;
+}
+
+.stars{
+    
+    margin-left: 50px;
+}
+
+.user_name{
+    color: #FFFFFF;
+    opacity: 70%;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
